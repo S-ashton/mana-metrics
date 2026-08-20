@@ -1,12 +1,7 @@
-import './App.css'
+import Dashboard from "./pages/Dashboard";
 
 function App() {
-  return (
-    <div>
-      <h1>ManaMetrics</h1>
-      <p>Commander analytics, without the spreadsheet.</p>
-    </div>
-  );
+  return <Dashboard />;
 }
 
 export default App;
