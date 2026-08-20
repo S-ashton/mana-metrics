@@ -1,4 +1,5 @@
 import StatCard from "../components/StatCard";
+import WinRateChart from "../components/WinRateChart";
 
 function Dashboard() {
   return (
@@ -38,6 +39,8 @@ function Dashboard() {
           description="Games you've lost"
         />
       </section>
+
+      <WinRateChart />
     </main>
   );
 }
