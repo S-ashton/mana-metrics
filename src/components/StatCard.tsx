@@ -6,11 +6,13 @@ interface StatCardProps {
 
 function StatCard({ label, value, description }: StatCardProps) {
   return (
-    <div>
-      <p>{label}</p>
-      <h2>{value}</h2>
+    <div className="stat-card">
+      <p className="stat-label">{label}</p>
+      <h2 className="stat-value">{value}</h2>
 
-      {description && <span>{description}</span>}
+      {description && (
+        <span className="stat-description">{description}</span>
+      )}
     </div>
   );
 }
